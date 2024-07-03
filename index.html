@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyDukaan | RESTAURENT</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <header class="bg-white border-b fixed left-0 right-0 top-0 z-50">
+        <div class="flex items-center flex-wrap justify-between gap-4 py-4 md:px-28 px-4">
+            <div class="md:w-fit w-full flex items-center">
+                <img src="pizzaheist.jpg" alt="Pizza Heist" class="h-12 w-12 rounded-lg">
+                <h1 class="text-xl font-bold ml-2">Pizza Heist</h1>
+            </div>
+            <form class="md:w-96 w-full rounded-md px-3 py-2 flex items-center gap-2 border bg-zinc-100 text-zinc-600">
+                <img src="search.png" alt="search" width="20">
+                <input type="text" placeholder="Search for products..." class="focus:outline-none bg-transparent">
+            </form>              
+            <div class="md:flex items-center w-fit hidden">      
+                <div class="flex items-center gap-8">
+                    <a href="#" class="text-gray-600 hover:text-black flex gap-2 items-center">
+                        <span><img src="category.png" alt="category" width="20"></span>
+                        Categories
+                    </a>
+                    <a href="#" class="text-gray-600 hover:text-black flex gap-2 items-center">
+                        <span><img src="shopping-bag.png" alt="shopping-bag" width="20"></span>
+                        Cart
+                    </a>
+                    <a href="#" class="text-gray-600 hover:text-black flex gap-2 items-center">
+                        <span><img src="user.png" alt="account" width="20"></span>
+                        Account
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECTION 1 -->
+    <section class="md:px-28 px-4 py-6 border-b mt-20">
+        <div class="flex justify-between items-center gap-6">
+            <a href="#" class="rounded-lg">
+                <img src="new-arrival.jpg" alt="new-arrival" class="rounded-lg">
+            </a>
+            <a href="#" class="rounded-lg">
+                <img src="free-delivery.jpg" alt="free-delivery" class="rounded-lg">
+            </a>
+            <a href="#" class="rounded-lg">
+                <img src="beverage.jpg" alt="beverage" class="rounded-lg">
+            </a>
+        </div>
+    </section>
+      
+    <!-- MENU SECTION -->
+    <section class="md:px-28 px-4 w-full">
+        <div class="flex items-start justify-between gap-6 w-full">
+            <!-- CATEGORY -->
+            <div class="w-1/4 md:block hidden pt-6 pr-3 border-r">
+                <ul class="space-y-2">
+                    <li><a href="#unlimited-pizza" class="block p-2 bg-white active:bg-blue-100">Unlimited Pizza - Offline</a></li>
+                    <li><a href="#chinese" class="block p-2 bg-white active:bg-blue-100">Chinese - Newly Added</a></li>
+                    <li><a href="#full-pizza" class="block p-2 bg-white active:bg-blue-100">Full Pizza @69 Only</a></li>
+                    <li><a href="#students-pizza" class="block p-2 bg-white active:bg-blue-100">Students Pizza 🍕</a></li>
+                    <li><a href="#burger-heist" class="block p-2 bg-white active:bg-blue-100">Burger Heist</a></li>
+                    <li><a href="#meals-combos" class="block p-2 bg-white active:bg-blue-100">Meals & Combos</a></li>
+                    <li><a href="#pizza-mania" class="block p-2 bg-white active:bg-blue-100">Pizza Mania</a></li>
+                </ul>
+            </div>
+
+            <!-- ITEMS -->
+            <div class="md:w-2/4 w-full flex flex-col items-center gap-4 pt-7">
+                <!-- Content for Unlimited Pizza -->
+                <section id="unlimited-pizza" class="w-full">
+                    <h2 class="text-xl font-bold mb-2">Unlimited Pizza - Offline</h2>
+                    <div class="flex w-full justify-between items-center relative mt-3 py-4 bg-white">
+                        <div class="flex items-center">
+                            <div class="h-32 w-32 border rounded-lg flex items-center justify-center">
+                                <img src="pizza-1.jpg" alt="pizza-1" class="h-fit w-fit rounded-lg">
+                                <div class="absolute bottom-0 left-5 px-3 py-1 bg-orange-400 text-white text-sm font-semibold rounded-lg">40% OFF</div>
+                            </div>
+                            <div class="ml-6 font-semibold text-lg">
+                                <h1>Book Your Seat -  Unlimited Pizza 🍕</h1>
+                                <p>₹300 <span class="text-gray-400"><strike class="ml-3">₹500</strike></span></p>
+                            </div>
+                        </div>
+                        <div class="text-blue-500">
+                            <button disabled class="px-2 py-1 border rounded-md border-blue-500 opacity-45">Add +</button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Content for Chinese -->
+                <section id="chinese" class="w-full">
+                    <h2 class="text-xl font-bold mb-2">Chinese - Newly Added</h2>
+                    <div class="flex w-full justify-between items-center relative mt-3 py-4 bg-white">
+                        <div class="flex items-center">
+                            <div class="h-32 w-32 border rounded-lg flex items-center justify-center">
+                                <img src="french-fries.jpg" alt="french-fries" class="h-fit w-fit">
+                                <div class="absolute bottom-0 left-5 px-3 py-1 bg-orange-400 text-white text-sm font-semibold rounded-lg">50% OFF</div>
+                            </div>
+                            <div class="ml-6 font-semibold text-lg">
+                                <h1>French Fries with Mayo 🍟</h1>
+                                <p>₹50 <span class="text-gray-400"><strike class="ml-3">₹100</strike></span></p>
+                            </div>
+                        </div>
+                        <div class="text-blue-500">
+                            <button disabled class="px-2 py-1 border rounded-md border-blue-500 opacity-45">Add +</button>
+                        </div>
+                    </div>
+                    <div class="flex w-full justify-between items-center relative mt-3 py-4 bg-white">
+                        <div class="flex items-center">
+                            <div class="h-32 w-32 border rounded-lg flex items-center justify-center">
+                                <img src="paneer-maggie.jpg" alt="french-fries" class="h-fit w-fit">
+                                <div class="absolute bottom-0 left-5 px-3 py-1 bg-orange-400 text-white text-sm font-semibold rounded-lg">47% OFF</div>
+                            </div>
+                            <div class="ml-6 font-semibold text-lg">
+                                <h1>Paneer Maggi</h1>
+                                <p>₹90 <span class="text-gray-400"><strike class="ml-3">₹170</strike></span></p>
+                            </div>
+                        </div>
+                        <div class="text-blue-500">
+                            <button disabled class="px-2 py-1 border rounded-md border-blue-500 opacity-45">Add +</button>
+                        </div>
+                    </div>
+                    <div class="flex w-full justify-between items-center relative mt-3 py-4 bg-white">
+                        <div class="flex items-center">
+                            <div class="h-32 w-32 border rounded-lg flex items-center justify-center">
+                                <img src="steam-momo.jpg" alt="momo" class="h-fit w-fit rounded-lg">
+                                <div class="absolute bottom-0 left-5 px-3 py-1 bg-orange-400 text-white text-sm font-semibold rounded-lg">47% OFF</div>
+                            </div>
+                            <div class="ml-6 font-semibold text-lg">
+                                <h1>Steam momo</h1>
+                                <p>₹50 <span class="text-gray-400"><strike class="ml-3">₹100</strike></span></p>
+                            </div>
+                        </div>
+                        <div class="text-blue-500">
+                            <button disabled class="px-2 py-1 border rounded-md border-blue-500 opacity-45">Add +</button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Content for Full Pizza -->
+                <section id="full-pizza" class="w-full">
+                    <h2 class="text-xl font-bold mb-2">Full Pizza @69 Only</h2>
+                    <div class="flex w-full justify-between items-center relative mt-3 py-4 bg-white">
+                        <div class="flex items-center">
+                            <div class="h-32 w-32 border rounded-lg flex items-center justify-center">
+                                <img src="8pc-pizza.jpg" alt="8pc-pizza" class="h-fit w-fit">
+                                <div class="absolute bottom-0 left-5 px-3 py-1 bg-orange-400 text-white text-sm font-semibold rounded-lg">35% OFF</div>
+                            </div>
+                            <div class="ml-6 font-semibold text-lg">
+                                <h1>Medium Size Pizza - 8 Piece @129\- </h1>
+                                <p>₹129 <span class="text-gray-400"><strike class="ml-3">₹199</strike></span></p>
+                            </div>
+                        </div>
+                        <div class="text-blue-500">
+                            <button disabled class="px-2 py-1 border rounded-md border-blue-500 opacity-45">Add +</button>
+                        </div>
+                    </div>
+                    <div class="flex w-full justify-between items-center relative mt-3 py-4 bg-white">
+                        <div class="flex items-center">
+                            <div class="h-32 w-32 border rounded-lg flex items-center justify-center">
+                                <img src="4-slice-pizza.jpg" alt="4-slice-pizza" class="h-fit w-fit">
+                                <div class="absolute bottom-0 left-5 px-3 py-1 bg-orange-400 text-white text-sm font-semibold rounded-lg">51% OFF</div>
+                            </div>
+                            <div class="ml-6 font-semibold text-lg">
+                                <h1>Pack Of 4 Slice @ 69\-</h1>
+                                <p>₹69 <span class="text-gray-400"><strike class="ml-3">₹140</strike></span></p>
+                            </div>
+                        </div>
+                        <div class="text-blue-500">
+                            <button disabled class="px-2 py-1 border rounded-md border-blue-500 opacity-45">Add +</button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Content for Students Pizza -->
+                <section id="students-pizza" class="w-full">
+                    <h2 class="text-xl font-bold mb-2">Students Pizza 🍕</h2>
+                    <div class="flex justify-between w-full items-center relative mt-3 py-4 bg-white">
+                        <div class="flex items-center">
+                            <div class="h-32 w-32 border rounded-lg flex items-center justify-center">
+                                <img src="backbencher-pizza.jpg" alt="backbencher-pizza" class="h-fit w-fit">
+                                <div class="absolute bottom-0 left-5 px-3 py-1 bg-orange-400 text-white text-sm font-semibold rounded-lg">46% OFF</div>
+                            </div>
+                            <div class="ml-6 font-semibold text-lg">
+                                <h1>The Backbenchers Pizza 🍕 Loaded <br> With Veggies </h1>
+                                <p>₹119 <span class="text-gray-400"><strike class="ml-3">₹219</strike></span></p>
+                            </div>
+                        </div>
+                        <div class="text-blue-500">
+                            <button disabled class="px-2 py-1 border rounded-md border-blue-500 opacity-45">Add +</button>
+                        </div>
+                    </div>
+                    <div class="flex justify-between w-full items-center relative mt-3 py-4 bg-white">
+                        <div class="flex items-center">
+                            <div class="h-32 w-32 border rounded-lg flex items-center justify-center">
+                                <img src="paneer-pizza-coke.jpg" alt="french-fries" class="h-fit w-fit">
+                                <div class="absolute bottom-0 left-5 px-3 py-1 bg-orange-400 text-white text-sm font-semibold rounded-lg">44% OFF</div>
+                            </div>
+                            <div class="ml-6 font-semibold text-lg">
+                                <h1>Solo Study Ke liye Panner PIZZA 🍕 <br> With Coke</h1>
+                                <p>₹129 <span class="text-gray-400"><strike class="ml-3">₹229</strike></span></p>
+                            </div>
+                        </div>
+                        <div class="text-blue-500">
+                            <button disabled class="px-2 py-1 border rounded-md border-blue-500 opacity-45">Add +</button>
+                        </div>
+                    </div>
+                    <div class="flex justify-between w-full items-center relative mt-3 py-4 bg-white">
+                        <div class="flex items-center">
+                            <div class="h-32 w-32 border rounded-lg flex items-center justify-center">
+                                <img src="group-study-combo.jpg" alt="group-study-combo" class="h-fit w-fit">
+                                <div class="absolute bottom-0 left-5 px-3 py-1 bg-orange-400 text-white text-sm font-semibold rounded-lg">29% OFF</div>
+                            </div>
+                            <div class="ml-6 font-semibold text-lg">
+                                <h1>Group Study Special Combo 🍕 @499 </h1>
+                                <p>₹499 <span class="text-gray-400"><strike class="ml-3">₹699</strike></span></p>
+                            </div>
+                        </div>
+                        <div class="text-blue-500">
+                            <button disabled class="px-2 py-1 border rounded-md border-blue-500 opacity-45">Add +</button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Content for Burger Heist -->
+                <section id="burger-heist" class="w-full">
+                    <h2 class="text-xl font-bold mb-2">Burger Heist</h2>
+                    <p>Burger List...</p>
+                </section>
+
+                <!-- Content for Meals & Combos -->
+                <section id="meals-combos" class="w-full">
+                    <h2 class="text-xl font-bold mb-2">Meals & Combos</h2>
+                    <p>Meals and combos...</p>                
+                </section>
+
+                <!-- Content for Pizza Mania -->
+                <section id="pizza-mania" class="w-full">
+                    <h2 class="text-xl font-bold mb-2">Pizza Mania</h2>           
+                    <p>Pizza Mania...</p>         
+                </section>
+            </div>
+
+            <!-- CART SECTION -->
+            <div class="w-1/4 pt-4 hidden md:block">
+                <div class="bg-white p-4 rounded-lg">
+                    <h2 class="text-xl font-bold mb-2">Cart</h2>
+                    <div class="flex flex-col items-center justify-center gap-2">
+                        <img src="empty-bag.png" alt="Empty Cart" class="mb-4" width="140">
+                        <p class="font-semibold">Your cart is empty</p>
+                        <p class="text-gray-700 px-14 text-center text-sm">Looks like you haven't made your choice yet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-zinc-800 text-white h-fit md:px-32 px-0">
+        <div class="py-10 flex flex-wrap justify-center items-end md:gap-36 gap-4">
+            <div class="md:w-fit w-full flex items-center justify-center flex-col">
+                <img src="free.svg">
+                <h3>Free delivery</h3>
+                <p class="text-sm">Delivery heppens within: 30-60minutes</p>
+            </div>
+            <div class="md:w-fit w-full flex items-center justify-center flex-col">
+                <img src="payment.svg">
+                <h3>Payment options</h3>
+                <p class="text-sm">Cash on delivery and online payment</p>
+            </div>
+            <div class="md:w-fit w-full flex items-center justify-center flex-col">
+                <img src="query.svg">
+                <h3>Customer support</h3>
+                <a href="#" class="text-sm hover:underline">pizzaheist.com@gmail.com</a>
+            </div>
+        </div>
+        <hr class="border-slate-500 opacity-50 mt-5">
+        <div class="mt-6 text-center mb-10">
+            <h3 class="font-light">STORE DETAILS</h3>
+            <h3 class="font-bold mt-2">Pizza Heist</h3>
+            <p class="font-semibold mt-2">Pukhrayan Kanpur Dehat Uttar Pradesh</p>
+        </div>
+        <hr class="border-slate-500 opacity-50">
+        <div class="py-6 flex flex-col items-center md:mb-0 mb-20">
+            <h3 class="font-light">FOLLOW US</h3>
+            <div class="flex items-center gap-2 mt-2"><img src="instagram-svgrepo-com.svg" alt="ig" width="20"><h5 class="md:block hidden">Instagram</h5></div>
+        </div>
+     </footer>
+    
+
+    <!-- MOBILE VIEW - MENU BAR -->
+    <section class="md:hidden w-full block fixed bottom-0 z-50 border-t py-6 bg-white">
+        <div class="flex justify-center w-full">      
+            <div class="flex items-center gap-8 font-semibold">
+                <a href="#" class="flex gap-2 items-center text-blue-600">
+                    <span><img src="home.png" alt="Home" width="20"></span>
+                    Home
+                </a>
+                <a href="#" class="flex gap-2 items-center active:text-blue-600 text-zinc-600">
+                    <span><img src="shopping-bag.png" alt="Bag" width="20"></span>
+                    Cart
+                </a> 
+                <a href="#" class="flex gap-2 items-center active:text-blue-600 text-zinc-600">
+                    <span><img src="user.png" alt="Account" width="20"></span>
+                    Account
+                </a>               
+            </div>
+        </div>
+    </section>
+</body>
+</html>

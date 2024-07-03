@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav{
+    justify-content: space-between;
+}
+.img1{
+    align-content: center;
+}
+.nav-btn{
+    height: 45px;
+    width: 160px;
+    background-color: rgb(2, 62, 158);
+
+}
